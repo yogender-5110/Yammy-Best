@@ -1,0 +1,252 @@
+*{margin: 0; padding: 0; }
+body{background-color: ; background-position: center; background-size: cover; box-sizing: border-box;  font-family: 'Noto Serif';}
+
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('font-local/NotoSerif-Italic.woff2') format('woff2'),
+        url('font-local/NotoSerif-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('font-local/NotoSerif-BoldItalic.woff2') format('woff2'),
+        url('font-local/NotoSerif-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('font-local/NotoSerif-Bold.woff2') format('woff2'),
+        url('font-local/NotoSerif-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('font-local/NotoSerif.woff2') format('woff2'),
+        url('font-local/NotoSerif.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.header-part{width: 100%; height: 100vh; background-image: url("about-bg.jpg"); background-position: center; background-size: cover; background-repeat: no-repeat; background-attachment: fixed;  }
+.empty{width: 100%; height: 100vh; background-color: #000; position: absolute; top: 0; left: 0; opacity: 0.6;}
+.hero-area{width: 100%; height: auto; border 1px solid #fff; padding: 10px; background-color: #000; opacity: 0.7; }
+.icon{text-align: center; font-size: 15px; z-index: }
+.icon a{text-decoration: none; color: #fff; font-weight: 400; padding: px; }
+.icon a span{color: #cda45c; padding-right:  10px; font-size: ;}
+.icon a:hover{color: #cda45c; background-color #fff;}
+
+.languages{text-align: center;}
+.languages a{text-decoration: none; color: #fff; padding: px;}
+.languages a span{color: #cda45c; }
+.navigation-part{background-color: #111; opacity: 0.95; padding: px; position: sticky; left: 0 ;right: 0; z-index: 999;transition: 0.5s; top: 0; }
+.navigation-part .navbar-brand{ font-size: 30px; }
+.navigation-part .navbar-nav .nav-item .nav-link{color: #fff; font-size: 15px; display: inline-block;}
+.navigation-part .navbar-nav .nav-item .nav-link:hover{color: #cda45c;}
+.navigation-part .navbar-nav .active .nav-link{color: #cda45c;}
+.navigation-part .btn-outline{background-color: #fff; }
+.navigation-part .btn-outline:hover{background-color: #cda45c; border: 1px solid #fff;}
+.front-text{border 2px solid darkred; padding:; width: 100%;min-height: 85vh; display: flex; align-items: center; justify-content: center; position: relative; top: 0; left: 0;}
+.text-welcome {width: 100%;  color: #fff; font-family: sans-serif;}
+.text-welcome h1{font-weight: 900;font-size: 50px; }
+.text-welcome span{color: #cda45c; }
+.text-welcome p{font-weight: 400;font-size: 20px; line-height: 15px;}
+.text-welcome p strong{font-size: 25px;}
+.welcome-button .menu{ border 1px solid #cda45c; padding: 15px 0; }
+.welcome-button .menu a{text-decoration: none; color: #fff; border: 1px solid #cda45c;padding: 10px 25px; border-radius: 5px; font-size: 15px; }
+.welcome-button .menu a:hover{background-color: #cda45c; border: 1px solid #fff;}
+.welcome-button .col-md-3{margin: 0; padding: 0;}
+ .img-icon{ border 1px solid red; display: flex; align-items: center; justify-content: center; padding-top: 8px; }
+.img-icon i{border 1px solid red; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; border-radius: 50% ; background-color: #cda45e; color: #fff; font-size: 25px; }
+.img-icon a{text-decoration: none; border: 10px solid #cda45c; border-radius: 50%;box-shadow: 0 0 25px #cda45c;   animation: zoom-in-zoom-out 1s ease infinite;}
+.img-icon a:hover{background-color: ; opacity: 0.9; }
+
+@keyframes zoom-in-zoom-out {
+  0% {transform: scale(1, 1);}
+  50% { transform: scale(1.2, 1.2);}
+  100% { transform: scale(1, 1);} }
+
+
+@media(max-width: 992px){
+	.text-welcome h1{font-weight: 600;font-size: 32px;  }
+	.front-text{text-align: center;}
+	.welcome-button .menu a{padding: 10px 4px;}
+	.text-welcome p{line-height: 15px; font-size: 15px;}
+.header-part{width: 100%; height: 165vh;}
+	.empty{width: 100%; height: 165vh;}
+}
+
+
+.about-corner{width: 100%; height: auto; background-image: url(" about.jpg"); background-position: center; background-size: cover; background-repeat: no-repeat; background-attachment: fixed; position: relative; padding: 50px;}
+.empty1{width: 100%; height:100% ; background-color: #000; position: absolute; top: 0; left: 0; opacity: 0.8;}
+.text-4{color: #fff;}
+.text-4 h4{color: #cda45c; font-weight: 600;}
+.text-4 .i{ border: px solid red;padding: 10px 0; }
+.check{padding: 5px 0;}
+.check li{list-style: none; padding: 8px 0;}
+.check li i{margin-right: 15px; color: #cda45c; font-size: 18px;}
+.p{text-align: justify;}
+
+.control-about{width:100% ; height:100% ; display: flex; align-items: center; justify-content: center; border 1px solid red; overflow: hidden;}
+.mini-about{width: 95%; height: 95%; border: 5px solid #cda45e; display: flex; align-items: center; justify-content: center; transition: 0.5s; padding: 0; margin: 0; overflow: hidden;}
+.img-about{width: 100%; height: 100%; border: 0px solid darkred; transition: 0.5s; position: relative; }
+.img-about img{width: 100%; height: 100%; display: block; }
+.img-about:hover {transform: scale(1.05); }
+.mini-about:hover{transform: scale(1.02); }
+.empty-about{width: 75px; height: 75px; border: 5px solid #cda45c; position: absolute; top: 20px; left: 20px; border-right: 0; border-bottom: 0;}
+.empty-about2{width: 75px; height: 75px; border: 5px solid #cda45c; position: absolute; bottom: 20px; right: 20px; border-top: 0; border-left: 0;}
+
+
+.choose-restaurant{background-color: #0c0b09;color: #fff; width: 100%; height: auto; display: flex; align-items: center; justify-content: center; border 2px solid darkred; flex-direction: column; padding-bottom: 75px;}
+.h1{  padding: 25px 0;border 2px solid darkred; width: 100%;}
+.h1 h6{color: #ddd; padding-top: 25px}
+.h1 h6::after{content: '';width: 125px; height: 1px ;background-color: #ddd; display: block; margin-left: 50px; margin-top: -7px;}
+.h1 h1{font-weight: 600; color: #cda45c;border 2px solid darkred; font-size: 35px; }
+.choose-restaurant .col-md-4{border 1px solid darkred; padding 25px; overflow: hidden; transition: 2s;}
+.choose-text{ border 1px solid grey; background-color: #1a1814;overflow: hidden; transition: 1.5s;}
+.choose-text span{font-size: 22px; font-weight: bold;}
+.choose-text p{font-weight: ; font-size: 15px;}
+.choose-text h4{padding: 20px 0;}
+.com-text:hover> span{color: #000;}
+.choose-text:hover{background-color: #cda45c; }
+.com-text:hover{transform: translateY(-20px); }
+.com-text{border 1px solid indianred; transition: 2s; padding: 75px 30px 30px 30px; }
+@media(max-width: 768px){.choose-text{margin-top: 25px;}}
+
+
+.tasty-menu{width: 100%; height: auto; background-color: #1a1814; padding-top: 25px; position: relative; padding-bottom: 25px;}
+.all-tab{width: 100%; height: auto; border 2px solid orange; padding: 15px 0; text-align: center;}
+.tablink {background-color:transparent;color:#fff ;float left;border: none;outline: none;cursor: pointer; padding: 0px 16px;font-size: 17px;width 25%; text-align: center; border 1px solid darkred; font-weight: 400;}
+.tasty-menu .active{color: #cda45c;}
+.tablink:hover {color: #cda45c;}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {color: white;display: none; padding: 50px 20px; height: 100%;}
+
+#Home {background-color: #1a1814;}
+#News {background-color: #1a1814;}
+#Contact {background-color: #1a1814;}
+#About {background-color: #1a1814;}
+
+.h5 a{font-weight: ; font-size: 17px; color: #fff; text-decoration: none;}
+.h5 a:hover{color: #cda45c;}
+.h5 span{color: #cda45c; font-size: 17px;}
+
+.h5{  border 1px solid orange; width: 100%; font-weight bold !important; color: #fff;    }
+.cobo{border 1px solid darkred ;  display flex; align-items center; justify-content center; padding: 25px 0;}
+.img-con{width: 60px; height: 60px;  border: 3px solid #cda45c; border-radius: 50%; animation: zoom-in-zoom-out 5s ease infinite; }
+.img-con img{width: 100%; height: 100%; display: block;  border-radius: 50%; cursor: pointer; box-shadow: 0 0 15px #cda45c;}
+.img-h5{margin-top 15px; width: 100%; border 1px solid indianred; box-sizing: border-box; height: auto; padding-left: 5px;}
+.p3{font-size: 14px; color: #676d79; border 1px solid darkred; width: 80%;}
+.tasty-menu container{padding: 0;}
+
+
+
+
+@media(max-width: 500px){.h5{font-size: 9px;} .tabcontent{padding: 0;}}
+@media(min-width: 769px){.col-md-2{min-width:55px ; } .col-md-10{min-width:55px ; }.h5{font-size: 14px; font-weight: normal;} }
+
+
+.tasty-menu1{ overflow hidden; width: 100%; height: auto; background-color: #0c0b09; padding-top: 50px ;padding-bottom:75px; position relative; border 1px solid darkred;}
+.h2 span::after{content: '';width: 125px; height: 1px ;background-color: #ddd; display: block; margin-left: 75px; margin-top: -10px;}
+.h2 h1{font-weight: 600; color: #cda45c;border 2px solid darkred; font-size: 35px; }
+.h2{padding-bottom:5px ;}
+.h2 h6{color: #ddd; padding-top: 25px ; padding-bottom: 5px;}
+.tab-part1{width: 100%; height: 100%; border-top 1px solid #ddd; display: flex; align-items: center; justify-content: center; height: ;}
+/* Style the buttons inside the tab */
+.tab1 button { color: #fff;display: block; background-color: inherit;color black;padding:  7px; width: 100%; border: none;outline: none;
+  text-align: left; cursor: pointer; transition: 0.3s;font-size: 17px;  font-weight: 400; margin-top: 7px;}
+.tab2{display: none;}
+.tab1 button:first-child{margin-top: 0;}
+/* Change background color of buttons on hover */
+.tab1 buttonhover {background-color #ddd; color: #cda45c;
+}
+
+/* Create an active/current "tab button" class */
+.tab1 button.active {background-color: #cda45c;
+  color: #000;
+}
+
+/* Style the tab content */
+.tab1 { float: left; border-right: 3px solid #cda45c;  background-color: #0b0c09; width: 25%; min-height: 300px; padding: 50px 0 0 0; transition: 0.5s; }
+
+.tabcontent1 {color: #fff;  padding: 0px 15px; border 1px solid #ccc; width: 75%; border-left: none; min-height: 350px; background-color: #0c0b09; transition: 0.5s; padding-top: 42px; }
+.col-lg-8{border 1px solid green;}
+.text-5 h4{ color: #cda45c; padding: 20px 0 15px 0; font-weight: 600;}
+.text-5 i{padding: ; color: #676d79;}
+.text-5 p{font-size: px; padding: 15px 0; letter-spacing 1px; font-size 15px; line-height: 25px; text-align: justify;}
+.image1{width: 275px; height: 275px; border 1px solid red ; }
+.image1 img{width: 100% ; height: 100%; display: block;}
+
+
+@media(max-width: 450px){.tab1 button {font-size: 10px}
+    .text-5 h4{ color: #cda45c;font-size: 17px; font-weight: 300; padding: 5px;}.text-5 p{font-size: 14px; line-height: 15px;}
+    .image1{width: 175px; height: 175px;}
+}
+
+
+.slide-part{width: 100%; height: auto; background-image: url("events-bg.jpg"); background-position: center; background-size: cover; background-repeat: no-repeat; background-attachment: fixed; position: relative;}
+.empty3{width: 100%; height: 100%; background-color#000; position: absolute; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.8); display: flex; align-items: center; justify-content: center; padding: 50px 0 75px 0; position: relative;}
+.slide-part .image-text0{border 1px solid darkred; width: 100%; height: 100%; overflow: hidden; }
+.image-text0 img{display: block; width: 100%; height: 100%; transition 1s;}
+slide-part .col-md-6{border: 2px solid grey; display: flex; align-items: center; justify-content: center; padding: 15px ;}
+.image-text0 .h3{width:auto ; border-bottom 1px solid red;}
+.image-text0 .h3 h3{width: ; border-bottom: 3px solid #cda45c; display: inline-block; color: #fff; font-weight: bold;}
+.slide-part .image-text0 img:hover{transform scale(1.02);}
+
+.form-part{width: 100%; height: auto; background-color: #0c0b09; padding-bottom: 75px; padding-top:50px ;}
+
+
+.h5{  padding: 25px 0;border 2px solid darkred; width: 100%;}
+.h5 h6 span{color: #ddd; padding-bottom 25px ; border 1px solid red;}
+.form-part .h5 h6::after{content: '';width: 125px; height: 1px ;background-color: #ddd; display: block; margin-left: 100px; margin-top: -10px ; }
+.h5 h1{font-weight: 600; color: #cda45c;border 2px solid darkred; font-size: 35px; padding-top:5px ;}
+.name{border 1px solid darkred; padding-top: 15px ; }
+.form-part .col-md-4{width: ;border 1px solid red;  margin-top: 10px;}
+.name .col-md-4 input{padding: 7px; width: 100%; border: 1px solid #777; outline: none; background-color: transparent; color: #ddd;}
+.name2{padding-top: 25px;}
+.name2 textarea{width: 100%;  padding: 10px; outline: none; border: 1px solid #777; background-color: transparent; color: #ddd;}
+.name .col-md-4 input::placeholder{font-size: 14px; color: ;}
+.resub{border 1px solid darkred; text-align: center; padding: 25px;}
+.resub input{padding: 5px 23px; background-color: transparent; color: #777; border: 1px solid #777; cursor: pointer;}
+.resub input:hover{background-color: #1a1814; color: #ddd;}
+
+
+.single-slide{  background-color: #1a1814;  }
+
+.single-slide .h5{  padding: 25px 0;border 2px solid darkred; width: 100%;}
+.single-slide .h5 h6 span{color: #ddd; padding-bottom 25px ; border 1px solid red;}
+.single-slide .h5 h6::after{content: '';width: 125px; height: 1px ;background-color: #ddd; display: block; margin-left: 110px; margin-top: -10px ; }
+.single-slide .h5 h1{font-weight: 600; color: #cda45c;border 2px solid darkred; font-size: 35px; padding-top:5px ;}
+
+
+.single-slide{width: 100%; height: auto; padding: 50px 0;}
+pogo{border: 1px solid red; padding: 35px; position: relative; height: auto;}
+.pogo .b{padding: 35px; color: #fff; background-color: #26231d; position: relative;}
+.b::before{content: "\f10d" ; display: inline-flex ;  font: 18px/1 FontAwesome; vertical-align: top; padding:0 10px ; padding-left: 0;  color: #cda45c;}
+.b::after{content: "\f10e" ; display: inline-flex ;  font: 18px/1 FontAwesome; vertical-align: bottom; padding:0 10px ; padding-right: 0; color: #cda45c;}
+.pogo .image-003{width: 75px; height: 75px ; border-radius: 50%; border: 3px solid #cda45c;}
+.pogo .image-003 img{width: 100%; height: 100%; display: block; border-radius: 50%; }
+
+.img-003{width: 200px; height: 200px; border: 1px solid grey; padding:0 25px;  position: absolute; top:200px; left: 50px; }
+.goodman{width: 150px; height: auto ; border:1px solid red ; text-align: center;  color: #cda45c;}
+.goodman span{font-size: 12px; }
+
+
+
+
+
+
+
+
