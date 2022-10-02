@@ -222,7 +222,7 @@ slide-part .col-md-6{border: 2px solid grey; display: flex; align-items: center;
 .resub input{padding: 5px 23px; background-color: transparent; color: #777; border: 1px solid #777; cursor: pointer;}
 .resub input:hover{background-color: #1a1814; color: #ddd;}
 
-
+/* 
 .single-slide{  background-color: #1a1814;  }
 
 .single-slide .h5{  padding: 25px 0;border 2px solid darkred; width: 100%;}
@@ -241,7 +241,7 @@ pogo{border: 1px solid red; padding: 35px; position: relative; height: auto;}
 
 .img-003{width: 200px; height: 200px; border: 1px solid grey; padding:0 25px;  position: absolute; top:200px; left: 50px; }
 .goodman{width: 150px; height: auto ; border:1px solid red ; text-align: center;  color: #cda45c;}
-.goodman span{font-size: 12px; }
+.goodman span{font-size: 12px; } */
 
 /* new slide */
 
