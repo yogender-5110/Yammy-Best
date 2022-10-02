@@ -243,6 +243,51 @@ pogo{border: 1px solid red; padding: 35px; position: relative; height: auto;}
 .goodman{width: 150px; height: auto ; border:1px solid red ; text-align: center;  color: #cda45c;}
 .goodman span{font-size: 12px; }
 
+/* new slide */
+
+.single-slide{  background-color: #1a1814;  }
+
+.single-slide .h5{  padding: 25px 0;border 2px solid darkred; width: 100%;}
+.single-slide .h5 h6 span{color: #ddd; padding-bottom 25px ; border 1px solid red;}
+.single-slide .h5 h6::after{content: '';width: 125px; height: 1px ;background-color: #ddd; display: block; margin-left: 110px; margin-top: -10px ; }
+.single-slide .h5 h1{font-weight: 600; color: #cda45c;border 2px solid darkred; font-size: 35px; padding-top:5px ;}
+
+
+.single-slide{width: 100%; height: auto; padding: 50px 0 ; position: relative; }
+.pogo{border 1px solid red; padding 35px; position: relative; height: auto; width: 100%; border-bottom 1px solid #cda45c;  }
+.pogo .b{padding: 35px ; color: #fff; background-color: #26231d; position: relative; border-bottom 3px solid #cda45c;border-radius 15px;}
+.b::before{content: "\f10d" ; display: inline-flex ;  font: 18px/1 FontAwesome; vertical-align: top; padding:0 10px ; padding-left: 0;  color: #cda45c;}
+.b::after{content: "\f10e" ; display: inline-flex ;  font: 18px/1 FontAwesome; vertical-align: bottom; padding:0 10px ; padding-right: 0; color: #cda45c;}
+.pogo .image-003{width: 75px; height: 75px ; border-radius: 50%; border: 3px solid #cda45c;}
+.pogo .image-003 img{width: 100%; height: 100%; display: block; border-radius: 50%; }
+
+.img-003{width: 200px; height: 200px; border 1px solid grey; padding: 0 35px; transition: 1.5s; background-color #000;  }
+ po{width: 200px; height: 200px; border 1px solid grey; padding:0 25px;  position: absolute; top:250px; left: 50px; }
+.goodman{width: 150px; height: auto ; border 1px solid red ; text-align: center;  color: #cda45c; padding: 5px 0 0 0; cursor pointer;}
+.goodman span{font-size: 12px; }
+.common-all:hover{border 1px solid #cda45c;  box-shadow: 0 0 25px #cda45c; transition: 0.5s;}
+.common-all:nth-child(5n){border-bottom: none;}
+.common-all:hover> .img-003{ transform: translateY(-20%); }
+
+.gallery-part{background-color: #0c0b09; padding: 0 10px ; padding-bottom: 75px; padding-top: 50px;}
+.gallery-part .h5{  padding: 25px 0;border 2px solid darkred; width: 100%;}
+.gallery-part .h5 h6 span{color: #ddd; padding-bottom 25px ; border 1px solid red;}
+.gallery-part .h5 h6::after{content: '';width: 125px; height: 1px ;background-color: #ddd; display: block; margin-left: 70px; margin-top: -10px ; }
+.gallery-part .h5 h1{font-weight: 600; color: #cda45c;border 2px solid darkred; font-size: 35px; padding-top:5px ;}
+.img-pic-gal {width: 100%; height: 300px; transition: 1s; }
+.img-pic-gal  img{width: 100%; height: 100%; display: inline-block;}
+.gal{overflow: hidden;  border: 2px solid #cda45c;}
+.gallery-part .col-md-3{padding: 0; }
+.gallery-pic{overflow: hidden; box-sizing: border-box; border-left: 2px solid #cda45c; border-right: 2px solid #cda45c;}
+.img-pic-gal:hover{transform: scale(1.1);}
+
+.chefs-part{width: 100%; height: 100%; background-color: #0c0b09;  padding: 50px 0;}
+.chefs-part .h5{  padding: 25px 0;border 2px solid darkred; width: 100%;}
+.chefs-part .h5 h6 span{color: #ddd; padding-bottom 25px ; border 1px solid red;}
+.chefs-part .h5 h6::after{content: '';width: 125px; height: 1px ;background-color: #ddd; display: block; margin-left: 50px; margin-top: -10px ; }
+.chefs-part .h5 h1{font-weight: 600; color: #cda45c;border 2px solid darkred; font-size: 35px; padding-top:5px ;}
+.chef-img{width: 100%; height: 375px; position: relative; }
+.chef-img img{width: 100%; height: 100% ; display: block; }
 
 
 
