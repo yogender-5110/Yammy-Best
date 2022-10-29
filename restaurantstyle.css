@@ -340,7 +340,7 @@ slide-part .col-md-6{border: 2px solid grey; display: flex; align-items: center;
   position: fixed;
   bottom: 20px;
   right: 30px;
-  z-index: 99;
+  z-index: 98;
   font-size: 18px;
   border: none;
   outline: none;
