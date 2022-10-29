@@ -234,6 +234,7 @@ slide-part .col-md-6{border: 2px solid grey; display: flex; align-items: center;
 .pogo{border 1px solid red; padding 35px; position: relative; height: auto; width: 100%; border-bottom 1px solid #cda45c;  }
 .pogo .b{padding: 35px ; color: #fff; background-color: #26231d; position: relative; border-bottom 3px solid #cda45c;border-radius 15px;}
 .b::before{content: "\f10d" ; display: inline-flex ;vertical-align: top; padding:0 10px ; padding-left: 0;  color: #cda45c;  font: 18px/1 FontAwesome;}
+
 .b::after{content: "\f10e" ; display: inline-flex ;  font: 18px/1 FontAwesome; vertical-align: bottom; padding:0 10px ; padding-right: 0; color: #cda45c;}
 .pogo .image-003{width: 75px; height: 75px ; border-radius: 50%; border: 3px solid #cda45c;}
 .pogo .image-003 img{width: 100%; height: 100%; display: block; border-radius: 50%; }
